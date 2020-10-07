@@ -1,0 +1,23 @@
+{
+  "name": "tiktok_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=6.x.x",
+    "npm": ">=3.9.5"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.8"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.7",
+    "nodemon": "^2.0.4"
+  }
+}
