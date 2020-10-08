@@ -13,7 +13,7 @@ const port = process.env.PORT || 9000;
 //middlewares
 
 //DB config
-const connectionUrl = 'mongodb+srv://kalilmvp:csEkLvds7lJlPkUf@cluster0.ckdfu.mongodb.net/tiktok?retryWrites=true&w=majority';
+const connectionUrl = '<MONGO_URI>';
 mongoose.connect(connectionUrl, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
